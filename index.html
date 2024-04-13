@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Kalam home tution acadamy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile_details.html">
+    <link rel="stylesheet" href="register.html">
+    <link rel="stylesheet" href="login.html">
+    <link rel="stylesheet" href="playlist.html">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <section class="flex">
+            <a href="home.html" class="logo">Dr. Kalam Home Tution Acadamy.</a>
+            <form action="" method="post" class="form">
+                <input type="text" name="search" placeholder="search courses.." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search"></button>
+            </form>
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+            <div class="profile">
+                <img src="images/profileimg.jpg">
+                <h3>Welcome</h3>
+                <a href="profile.html" class="btn">View Profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!---------- Section ---------------->
+    <div class="side-bar">
+        <div class="close-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <nav class="nav-bar">
+            <img src="images/logo.png" alt="">
+            <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About us</span></a>
+            <a href="playlist.html"><i class="fas fa-graduation-cap"></i><span>Our videos</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a>
+        </nav>
+    </div>
+
+    <!------- Banner ------------>
+    <div class="banner">
+        <img src="images/ban1.avif">
+        <div class="content">
+            <h1>Grow your skills to advance your carrer path</h1>
+            <p>Coaching classes available-Class 6th to 12th std Matriculation, Cbse, Icse, IB,<br> Commerce stream UG and PG programs - BBA,B.Com,MBA,M.com</p>
+            <button>Explore now</button>
+        </div>
+        <div class="form-container">
+            <h1>Book your Free Session</h1>
+            <p>Learn from India's best teachers</p>
+            <form>
+              <div class="form-group">
+                <label for="session-mode">Select the Session Mode</label>
+                <select id="session-mode">
+                  <option value="online">Online</option>
+                  <option value="offline">Offline</option>
+                </select>
+              </div>
+              <h1>Enter your details</h1>
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Enter Name of your Child" required/>
+                <input type="tel" id="mobile" placeholder="Enter your Mobile Number" required />
+                <input type="email" id="email" placeholder="Email Address" required />
+                <input type="text" id="state" placeholder="State" required />
+              </div>
+              <div class="form-group">
+                <button type="submit">Schedule a Free Class</button>
+              </div>
+            </form>
+        </div>
+    </div>
+
+    <!------- courses ----------->
+    <section class="courses">
+        <h1 class="heading">Our courses</h1> 
+        <div class="course-box">
+            <div class="box">
+                <img src="images/school.jpeg" alt="">
+                <div class="tooltip">
+                    <div class="state">
+                        <ul>
+                            <li class="state-hover">STATE BOARD</li>
+                            <li class="state-hover">CBSE</li>
+                            <li class="state-hover">ICSE</li>
+                        </ul>
+                    </div>
+                    <div class="subjects  state-subjects active">
+                        <span>STATE BOARD</span>
+                        <ul>
+                            <li>English</li><li>Science</li><li>Maths</li><li>Social-science</li><li>Hindi</li>
+                            <li>General Knowledge</li><li>Biology</li><li>Computer Science</li><li>Physics</li><li>Hiostry</li>
+                            <li>Chemistry</li><li>Accounts</li><li>political Science</li><li>Economics</li><li>Business Studies</li>
+                        </ul>
+                    </div>
+                    <div class="subjects cbse-subjects active">
+                        <span>CBSE</span>
+                        <ul>
+                            <li>English core</li><li>Science</li><li>Mathematics</li><li>Physics</li><li>Chemistry</li><li>Hindi</li><li>Hindi</li>
+                            <li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li>
+                            <li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li><li>Hindi</li>
+                        </ul>
+                    </div>
+                    <div class="subjects icse-subjects active">
+                        <span>ICSE</span>
+                        <ul>
+                            <li>English</li><li>Science</li><li>Maths</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>Class 6-12</h1>
+                <span>The learning classes</span>
+            </div>
+        </div>
+        <div class="course-box">
+            <div class="box">
+                <img src="images/neet.jpg" alt="">
+                <div class="tooltip">
+                    <div class="state">
+                        <ul>
+                            <li>NEET</li><li>IIT</li><li>JEE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>IIT/JEE/NEET</h1>
+                <span>The learning classes</span>
+            </div>
+        </div>
+        <div class="course-box">
+            <div class="box">
+                <img src="images/ug-pg.jpeg" alt="">
+                <div class="tooltip">
+                    <div class="state">
+                        <ul>
+                            <li>UG Courses</li><li>PG courses</li>
+                        </ul>
+                    </div>
+                    <div class="subjects">
+                        <span>UG Courses</span>
+                        <ul>
+                            <li>MBBS</li><li>BSC</li><li>BCA</li><li>Engineering</li><li>Bacheler of Management Studies(BMS)</li><li>Bacheler of Design(B.Design)</li><li>Bsc in CS</li>
+                            <li>BBA</li><li>Accounting & Finance</li><li>Law - BA LLB/LLB</li><li>CS Engineering</li><li>Electrical Engineering</li><li>AI and ML Engineering</li><li>Mechanical Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="subjects">
+                        <span>PG Courses</span>
+                        <ul>
+                            <li>MD</li><li>MCA</li><li>MBA</li><li>Biotechnology</li><li>Digital Marketing courses</li><li>MTech</li><li>Postgraduate diploma</li><li>Master of Laws(ML)</li>
+                            <li>Biochemistry</li><li>Biophysics</li><li>Architecture</li><li>Master of Commerce(M.Com)</li><li>Master of Education(M.Ed)</li><li>Master of Fine Arts(MFA)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>UG and PG</h1>
+                <span>The learning classes</span>
+            </div>
+        </div>
+        <div class="course-box">
+            <div class="box">
+                <img src="images/coaching.jpg" alt="">
+                <div class="tooltip">
+                    <div class="state">
+                        <ul>
+                            <li>Training Classes</li>
+                        </ul>
+                    </div>
+                    <div class="subjects">
+                        <span>Coaching & Training</span>
+                        <li>Data Analytics</li><li>Python Full Stack</li><li>Java Full Stack</li><li>Cloud Computing</li><li>Software Testing</li>
+                        <li>Data Science</li><li>Data science with Analytics & AI</li><li>Spoken English CLasses</li><li>Apptitude</li>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>Coaching classes</h1>
+                <span>The learning classes</span>
+            </div>
+        </div> 
+        <div class="course-box">
+            <div class="box">
+                <img src="images/french.webp" alt="">
+                <div class="tooltip">
+                    <div class="state">
+                        <ul>
+                            <li>French language</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+            <div>
+                <h1>French Classes</h1>
+                <span>The learning classes</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers -->
+    <section class="teachers">
+        <h1 class="heading">Expert teachers</h1>
+        <div class="details">
+            <div class="grid-container"></div><div class="tutor">
+                <img src="images/teacher1.jpeg">
+                <h3>Mangala Prasath</h3><span>Developer</span>
+            </div>
+                <div class="tutor">
+                    <img src="images/teacher2.webp">
+                    <h3>Mangala Prasath</h3><span>Developer</span>
+                </div>
+                <div class="tutor">
+                    <img src="images/teacher3.jpeg">
+                    <h3>Mangala Prasath</h3><span>Developer</span>
+                </div>
+                <div class="tutor">
+                    <img src="images/teacher4.jpg"> 
+                    <h3>Mangala Prasath</h3><span>Developer</span>
+                </div>
+                <div class="tutor">
+                    <img src="images/teacher5.jpg">
+                    <h3>Mangala Prasath</h3><span>Developer</span>
+                </div>
+                <div class="tutor">
+                    <img src="images/teacher6.jpg">
+                    <h3>Mangala Prasath</h3><span>Developer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq1">
+        <div class="faq-container">
+            <h1>Frequently Asked Questions</h1>
+            <div class="faq">
+                <button class="question">Why DR.kalam home tution and technology.</button>
+                <div class="answer">We concentrate on the quality of learning and by choosing us you can be happy without any headache thinking about carrer.</div>
+            </div>
+            <div class="faq">
+                <button class="question">Does DR.kalam home tution and technologies offer a demo class.</button>
+                <div class="answer">Yes, we offer our first class as free demo class whenever you wish to know about your tutor.. you can schedule by calling Mobile No: 9025117002</div>
+            </div>
+            <div class="faq">
+                <button class="question">Is it affordable</button>
+                <div class="answer">Yes, our fee structure is very reasonable as we follow Dr.kalam policies</div>
+            </div>
+            <div class="faq">
+                <button class="question">Can i cancel the tutor after the demo class</button>
+                <div class="answer">Yes, you can cancel the tutor after the demo class and academy does not ask one question also on this page.</div>
+            </div>
+            <div class="faq">
+                <button class="question">Does Dr.kalam home tution provide any notes or study material?</button>
+                <div class="answer">Yes, we provide study material for all of our students,and the more fascinating fact is we concentrate on the student's capability and do the preparation which is free of cost.</div>
+            </div>
+            <div class="faq">
+                <button class="question">Does Dr.kalam home tuition and technology provide placement assistance ?</button>
+                <div class="answer">Yes, we provide the placement assistance where you can join in the top orgs so easily.</div>
+            </div>
+            <div class="faq">
+                <button class="question">Who is the Founder of Dr Kalam Home Tuition and Technologies?</button>
+                <div class="answer">Prof.Jaffrin  is the Founder of this reputated institution,After seeing the money robbing institutes which cheats people and kids,He found a trustworthy institute which brings Dr Kalam policy in the country.</div>
+            </div>
+        </div>
+    </section>
+
+    <!------------- footer ---------->
+    <footer class="footer">
+        &copy; copyright @ 2024 by <span>Mr. Jenni Jeffrin</span> | all rights reserved!
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+<!-- <div class="faq">
+    <div class="question">
+        <h3>Why DR.kalam home tution and technology.</h3>
+        <svg width="15" height="10" viewBox="0 0 42 25">
+            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <div class="answer">
+        <p>We concentrate on the quality of learning and by choosing us you can be happy without any headache thinking about carrer.</p>
+    </div>
+</div>
+<div class="faq">
+    <div class="question">
+        <h3>Does DR.kalam home tution and technologies offer a demo class.</h3>
+        <svg width="15" height="10" viewBox="0 0 42 25">
+            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <div class="answer">
+        <p>Yes, we offer our first class as free demo class whenever you wish to know about your tutor.. you can schedule by calling Mobile No: 9025117002</p>
+    </div>
+</div>
+<div class="faq">
+    <div class="question">
+        <h3>Is it affordable</h3>
+        <svg width="15" height="10" viewBox="0 0 42 25">
+            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <div class="answer">
+        <p>Yes, our fee structure is very reasonable as we follow Dr.kalam policies</p>
+    </div>
+</div>
+<div class="faq">
+    <div class="question">
+        <h3>Can i cancel the tutor after the demo class</h3>
+        <svg width="15" height="10" viewBox="0 0 42 25">
+            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <div class="answer">
+        <p>Yes, you can cancel the tutor after the demo class and academy does not ask one question also on this page.</p>
+    </div>
+</div>
+<div class="faq">
+    <div class="question">
+        <h3>Does Dr.kalam home tution provide any notes or study material?</h3>
+        <svg width="15" height="10" viewBox="0 0 42 25">
+            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <div class="answer">
+        <p>Yes, we provide study material for all of our students,and the more fascinating fact is we concentrate on the student's capability and do the preparation which is free of cost.</p>
+    </div>
+</div>
+<div class="faq">
+    <div class="question">
+        <h3>Does Dr.kalam home tuition and technology provide placement assistance ?</h3>
+        <svg width="15" height="10" viewBox="0 0 42 25">
+            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <div class="answer">
+        <p>Yes, we provide the placement assistance where you can join in the top orgs so easily.</p>
+    </div>
+</div>
+<div class="faq">
+    <div class="question">
+        <h3>Who is the Founder of Dr Kalam Home Tuition and Technologies?</h3>
+        <svg width="15" height="10" viewBox="0 0 42 25">
+            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+        </svg>
+    </div>
+    <div class="answer">
+        <p>Prof.Jaffrin  is the Founder of this reputated institution,After seeing the money robbing institutes which cheats people and kids,He found a trustworthy institute which brings Dr Kalam policy in the country.</p>
+    </div>
+</div> -->
